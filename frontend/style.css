@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  margin: 0;
+  color: #f5f5f5;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+  background: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border: 1px solid #333;
+}
+
+#chat-box {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#chat-box div {
+  margin-bottom: 15px;
+}
+
+#chat-box strong {
+  color: #00ffcc;
+}
+
+.input-row {
+  display: flex;
+  border-top: 1px solid #333;
+  padding: 10px;
+  background-color: #1a1a1a;
+}
+
+#user-input {
+  flex: 1;
+  background-color: #2a2a2a;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  color: #f5f5f5;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 12px 20px;
+  border: none;
+  background: #00ffcc;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #00ddaa;
+}
